@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/certification/logo certification/cisco.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cisco Certifications</title>
+    <link rel="stylesheet" href="css/cisco.css">
+    <script defer src="js/cisco.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <blockquote><h1>Cisco Certifications</h1></blockquote>
+            <button onclick="window.location.href='index.html'" class="back-button">&larr; Back</button>
+        </header>
+        <div class="certification-gallery">
+            <div class="certification-item" data-title="Cisco - Python Essentials 1" data-desc="Python Essentials 1">
+                <img src="img/certification/CISCO/python essentials 1.png" alt="Certificate 1">
+                <a>Python Essentials 1</a>
+            </div>
+
+            <div class="certification-item" data-title="Cisco - Operating Systems Basics" data-desc="Operating Systems Basics">
+                <img src="img/certification/CISCO/operating systems basics.png" alt="Certificate 2">
+                <a>Operating Systems Basics</a>
+            </div>
+        </div>
+        <footer>
+            <blockquote><h1>Cisco Certifications</h1></blockquote>
+            <button onclick="window.location.href='index.html'" class="back-button">&larr; Back</button>
+        </footer>
+    </div>
+    
+    <!-- Modal -->
+<div id="certificationModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal" class="close-modal">&times;</span>
+        <img id="modalImage" src="" alt="Certificate Preview">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+    </div>
+</div>
+</body>
+</html>
